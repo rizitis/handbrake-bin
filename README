@@ -1,0 +1,15 @@
+handbrake-bin for Slackware64 Current
+
+Note: x264 from SBo is old you need a newer version.
+Thats not a problem as mr Heinz Wiesinger include in SlackBuild.tar.gz the script for create new release tarball.
+
+Steps:
+1. Download x264.tar.gz  "http://slackbuilds.org/slackbuilds/15.0/multimedia/x264.tar.gz"
+extract it and run:
+sh x264-mksrctarball.sh
+This script will create a new release tar.lz
+
+2. Now edit x264.SlackBuild and replace VERSION with the new one that your tar.lz  has.
+Something like this: VERSION=${VERSION:-git_20231001_31e19f92}
+
+3. Run x264.SlackBuild and install/upgrade x264 when build finsh.
