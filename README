@@ -1,4 +1,5 @@
 handbrake-bin for Slackware64 Current
+All required in info file are runtime dependencies.
 
 Note: x264 from SBo is old you need a newer version.
 Thats not a problem as mr Heinz Wiesinger include in SlackBuild.tar.gz the script for create new release tarball.
